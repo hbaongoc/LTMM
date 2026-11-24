@@ -1,0 +1,29 @@
+﻿python : test_01_gf_add (test_aes.TestAES.test_01_gf_add) ... ok
+At line:1 char:1
++ python -m unittest discover -s tests -p "test_aes.py" -v 2>&1 | Out-F ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_01_gf_add ..._gf_add) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_02_xtime (test_aes.TestAES.test_02_xtime) ... ok
+test_03_gf_mul (test_aes.TestAES.test_03_gf_mul) ... ok
+test_04_gf_inverse (test_aes.TestAES.test_04_gf_inverse) ... ok
+test_05_sbox (test_aes.TestAES.test_05_sbox) ... ok
+test_06_inverse_sbox (test_aes.TestAES.test_06_inverse_sbox) ... ok
+test_07_state_conversion (test_aes.TestAES.test_07_state_conversion) ... ok
+test_08_sub_bytes (test_aes.TestAES.test_08_sub_bytes) ... ok
+test_09_shift_rows (test_aes.TestAES.test_09_shift_rows) ... ok
+test_10_mix_columns (test_aes.TestAES.test_10_mix_columns) ... ok
+test_11_add_round_key (test_aes.TestAES.test_11_add_round_key) ... ok
+test_12_key_expansion (test_aes.TestAES.test_12_key_expansion) ... ok
+test_13_standard_encryption (test_aes.TestAES.test_13_standard_encryption) ... ok
+test_14_standard_decryption (test_aes.TestAES.test_14_standard_decryption) ... ok
+test_15_class_encryption (test_aes.TestAES.test_15_class_encryption) ... ok
+test_16_class_decryption (test_aes.TestAES.test_16_class_decryption) ... ok
+test_17_encrypt_decrypt (test_aes.TestAES.test_17_encrypt_decrypt) ... ok
+test_18_invalid_input (test_aes.TestAES.test_18_invalid_input) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 0.014s
+
+OK

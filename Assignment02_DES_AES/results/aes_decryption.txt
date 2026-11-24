@@ -1,0 +1,438 @@
+﻿============================================================
+AES-128 DECRYPTION
+============================================================
+Ciphertext: 69C4E0D86A7B0430D8CDB78070B4C55A
+Key:        000102030405060708090A0B0C0D0E0F
+
+Initial State:
+69 6A D8 70
+C4 7B CD B4
+E0 04 B7 C5
+D8 30 80 5A
+
+============================================================
+ROUND 10
+============================================================
+
+Round Key 10:
+13 E3 F3 4D
+11 94 07 2B
+1D 4A A7 30
+7F 17 8B C5
+
+After AddRoundKey:
+7A 89 2B 3D
+D5 EF CA 9F
+FD 4E 10 F5
+A7 27 0B 9F
+
+============================================================
+ROUND 9
+============================================================
+
+Input State:
+7A 89 2B 3D
+D5 EF CA 9F
+FD 4E 10 F5
+A7 27 0B 9F
+
+After InvShiftRows:
+7A 89 2B 3D
+9F D5 EF CA
+10 F5 FD 4E
+27 0B 9F A7
+
+After InvSubBytes:
+BD F2 0B 8B
+6E B5 61 10
+7C 77 21 B6
+3D 9E 6E 89
+
+Round Key 9:
+54 F0 10 BE
+99 85 93 2C
+32 57 ED 97
+D1 68 9C 4E
+
+After AddRoundKey:
+E9 02 1B 35
+F7 30 F2 3C
+4E 20 CC 21
+EC F6 F2 C7
+
+After InvMixColumns:
+54 6B 96 A1
+D9 A0 BB 11
+90 9A F4 70
+A1 B5 0E 2F
+Round Output: 54D990A16BA09AB596BBF40EA111702F
+
+============================================================
+ROUND 8
+============================================================
+
+Input State:
+54 6B 96 A1
+D9 A0 BB 11
+90 9A F4 70
+A1 B5 0E 2F
+
+After InvShiftRows:
+54 6B 96 A1
+11 D9 A0 BB
+F4 70 90 9A
+B5 0E 2F A1
+
+After InvSubBytes:
+FD 05 35 F1
+E3 E5 47 FE
+BA D0 96 37
+D2 D7 4E F1
+
+Round Key 8:
+47 A4 E0 AE
+43 1C 16 BF
+87 65 BA 7A
+35 B9 F4 D2
+
+After AddRoundKey:
+BA A1 D5 5F
+A0 F9 51 41
+3D B5 2C 4D
+E7 6E BA 23
+
+After InvMixColumns:
+3E B6 8D F6
+1C FC A8 17
+22 BF 50 04
+C0 76 67 95
+Round Output: 3E1C22C0B6FCBF768DA85067F6170495
+
+============================================================
+ROUND 7
+============================================================
+
+Input State:
+3E B6 8D F6
+1C FC A8 17
+22 BF 50 04
+C0 76 67 95
+
+After InvShiftRows:
+3E B6 8D F6
+17 1C FC A8
+50 04 22 BF
+76 67 95 C0
+
+After InvSubBytes:
+D1 79 B4 D6
+87 C4 55 6F
+6C 30 94 F4
+0F 0A AD 1F
+
+Round Key 7:
+14 E3 44 4E
+F9 5F 0A A9
+70 E2 DF C0
+1A 8C 4D 26
+
+After AddRoundKey:
+C5 9A F0 98
+7E 9B 5F C6
+1C D2 4B 34
+15 86 E0 39
+
+After InvMixColumns:
+B4 68 4B 5F
+58 B6 99 15
+12 8A F8 55
+4C 01 2E 4C
+Round Output: B458124C68B68A014B99F82E5F15554C
+
+============================================================
+ROUND 6
+============================================================
+
+Input State:
+B4 68 4B 5F
+58 B6 99 15
+12 8A F8 55
+4C 01 2E 4C
+
+After InvShiftRows:
+B4 68 4B 5F
+15 58 B6 99
+F8 55 12 8A
+01 2E 4C 4C
+
+After InvSubBytes:
+C6 F7 CC 84
+2F 5E 79 F9
+E1 ED 39 CF
+09 C3 5D 5D
+
+Round Key 6:
+5E F7 A7 0A
+39 A6 55 A3
+0F 92 3D 1F
+7D 96 C1 6B
+
+After AddRoundKey:
+98 00 6B 8E
+16 F8 2C 5A
+EE 7F 04 D0
+74 55 9C 36
+
+After InvMixColumns:
+E8 14 3F E7
+DA 77 F7 47
+B6 D4 F5 DD
+90 65 E2 4F
+Round Output: E8DAB6901477D4653FF7F5E2E747DD4F
+
+============================================================
+ROUND 5
+============================================================
+
+Input State:
+E8 14 3F E7
+DA 77 F7 47
+B6 D4 F5 DD
+90 65 E2 4F
+
+After InvShiftRows:
+E8 14 3F E7
+47 DA 77 F7
+F5 DD B6 D4
+65 E2 4F 90
+
+After InvSubBytes:
+C8 9B 25 B0
+16 7A 02 26
+77 C9 79 19
+BC 3B 92 96
+
+Round Key 5:
+3C A9 50 AD
+AA 9F F3 F6
+A3 9D AF 22
+E8 EB 57 AA
+
+After AddRoundKey:
+F4 32 75 1D
+BC E5 F1 D0
+D4 54 D6 3B
+54 D0 C5 3C
+
+After InvMixColumns:
+36 F9 9F C4
+33 B5 2C 40
+9D 39 09 6D
+50 26 2D 23
+Round Output: 36339D50F9B539269F2C092DC4406D23
+
+============================================================
+ROUND 4
+============================================================
+
+Input State:
+36 F9 9F C4
+33 B5 2C 40
+9D 39 09 6D
+50 26 2D 23
+
+After InvShiftRows:
+36 F9 9F C4
+40 33 B5 2C
+09 6D 9D 39
+26 2D 23 50
+
+After InvSubBytes:
+24 69 6E 88
+72 66 D2 42
+40 B3 75 5B
+23 FA 32 6C
+
+Round Key 4:
+47 95 F9 FD
+F7 35 6C 05
+F7 3E 32 8D
+BC 03 BC FD
+
+After AddRoundKey:
+63 FC 97 75
+85 53 BE 47
+B7 8D 47 D6
+9F F9 8E 91
+
+After InvMixColumns:
+2D 3F 09 5B
+6D 33 36 FB
+7E E3 02 12
+F0 34 DD C7
+Round Output: 2D6D7EF03F33E334093602DD5BFB12C7
+
+============================================================
+ROUND 3
+============================================================
+
+Input State:
+2D 3F 09 5B
+6D 33 36 FB
+7E E3 02 12
+F0 34 DD C7
+
+After InvShiftRows:
+2D 3F 09 5B
+FB 6D 33 36
+02 12 7E E3
+34 DD C7 F0
+
+After InvSubBytes:
+FA 25 40 57
+63 B3 66 24
+6A 39 8A 4D
+28 C9 31 17
+
+Round Key 3:
+B6 D2 6C 04
+FF C2 59 69
+74 C9 0C BF
+4E BF BF 41
+
+After AddRoundKey:
+4C F7 2C 53
+9C 71 3F 4D
+1E F0 86 F2
+66 76 8E 56
+
+After InvMixColumns:
+3B FC 57 C0
+D9 74 67 59
+22 FB CB 0E
+68 73 E0 2D
+Round Output: 3BD92268FC74FB735767CBE0C0590E2D
+
+============================================================
+ROUND 2
+============================================================
+
+Input State:
+3B FC 57 C0
+D9 74 67 59
+22 FB CB 0E
+68 73 E0 2D
+
+After InvShiftRows:
+3B FC 57 C0
+59 D9 74 67
+CB 0E 22 FB
+73 E0 2D 68
+
+After InvSubBytes:
+49 55 DA 1F
+15 E5 CA 0A
+59 D7 94 63
+8F A0 FA F7
+
+Round Key 2:
+B6 64 BE 68
+92 3D 9B 30
+CF BD C5 B3
+0B F1 00 FE
+
+After AddRoundKey:
+FF 31 64 77
+87 D8 51 3A
+96 6A 51 D0
+84 51 FA 09
+
+After InvMixColumns:
+A7 97 D8 1F
+BE AD C9 61
+1A 73 CA 8B
+69 9B 45 61
+Round Output: A7BE1A6997AD739BD8C9CA451F618B61
+
+============================================================
+ROUND 1
+============================================================
+
+Input State:
+A7 97 D8 1F
+BE AD C9 61
+1A 73 CA 8B
+69 9B 45 61
+
+After InvShiftRows:
+A7 97 D8 1F
+61 BE AD C9
+CA 8B 1A 73
+9B 45 61 69
+
+After InvSubBytes:
+89 85 2D CB
+D8 5A 18 12
+10 CE 43 8F
+E8 68 D8 E4
+
+Round Key 1:
+D6 D2 DA D6
+AA AF A6 AB
+74 72 78 76
+FD FA F1 FE
+
+After AddRoundKey:
+5F 57 F7 1D
+72 F5 BE B9
+64 BC 3B F9
+15 92 29 1A
+
+After InvMixColumns:
+63 09 CD BA
+53 60 70 CA
+E0 E1 B7 D0
+8C 04 51 E7
+Round Output: 6353E08C0960E104CD70B751BACAD0E7
+
+============================================================
+ROUND 0
+============================================================
+
+Input State:
+63 09 CD BA
+53 60 70 CA
+E0 E1 B7 D0
+8C 04 51 E7
+
+After InvShiftRows:
+63 09 CD BA
+CA 53 60 70
+B7 D0 E0 E1
+04 51 E7 8C
+
+After InvSubBytes:
+00 40 80 C0
+10 50 90 D0
+20 60 A0 E0
+30 70 B0 F0
+
+Round Key 0:
+00 04 08 0C
+01 05 09 0D
+02 06 0A 0E
+03 07 0B 0F
+
+After AddRoundKey:
+00 44 88 CC
+11 55 99 DD
+22 66 AA EE
+33 77 BB FF
+Round Output: 00112233445566778899AABBCCDDEEFF
+
+============================================================
+DECRYPTION RESULT
+============================================================
+Ciphertext: 69C4E0D86A7B0430D8CDB78070B4C55A
+Key:        000102030405060708090A0B0C0D0E0F
+Plaintext:  00112233445566778899AABBCCDDEEFF
