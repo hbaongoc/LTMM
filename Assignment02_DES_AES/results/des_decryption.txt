@@ -1,0 +1,537 @@
+﻿==================================================
+DES KEY SCHEDULE
+==================================================
+Original key : 133457799BBCDFF1
+Key binary   : 0001001100110100010101110111100110011011101111001101111111110001
+After PC-1   : F0CCAAF556678F
+C0           : F0CCAAF
+D0           : 556678F
+
+--- KEY ROUND 01 ---
+Shift       : 1
+C1          : E19955F
+D1          : AACCF1E
+C || D      : E19955FAACCF1E
+K1          : 1B02EFFC7072
+Key binary  : 000110110000001011101111111111000111000001110010
+
+--- KEY ROUND 02 ---
+Shift       : 1
+C2          : C332ABF
+D2          : 5599E3D
+C || D      : C332ABF5599E3D
+K2          : 79AED9DBC9E5
+Key binary  : 011110011010111011011001110110111100100111100101
+
+--- KEY ROUND 03 ---
+Shift       : 2
+C3          : 0CCAAFF
+D3          : 56678F5
+C || D      : 0CCAAFF56678F5
+K3          : 55FC8A42CF99
+Key binary  : 010101011111110010001010010000101100111110011001
+
+--- KEY ROUND 04 ---
+Shift       : 2
+C4          : 332ABFC
+D4          : 599E3D5
+C || D      : 332ABFC599E3D5
+K4          : 72ADD6DB351D
+Key binary  : 011100101010110111010110110110110011010100011101
+
+--- KEY ROUND 05 ---
+Shift       : 2
+C5          : CCAAFF0
+D5          : 6678F55
+C || D      : CCAAFF06678F55
+K5          : 7CEC07EB53A8
+Key binary  : 011111001110110000000111111010110101001110101000
+
+--- KEY ROUND 06 ---
+Shift       : 2
+C6          : 32ABFC3
+D6          : 99E3D55
+C || D      : 32ABFC399E3D55
+K6          : 63A53E507B2F
+Key binary  : 011000111010010100111110010100000111101100101111
+
+--- KEY ROUND 07 ---
+Shift       : 2
+C7          : CAAFF0C
+D7          : 678F556
+C || D      : CAAFF0C678F556
+K7          : EC84B7F618BC
+Key binary  : 111011001000010010110111111101100001100010111100
+
+--- KEY ROUND 08 ---
+Shift       : 2
+C8          : 2ABFC33
+D8          : 9E3D559
+C || D      : 2ABFC339E3D559
+K8          : F78A3AC13BFB
+Key binary  : 111101111000101000111010110000010011101111111011
+
+--- KEY ROUND 09 ---
+Shift       : 1
+C9          : 557F866
+D9          : 3C7AAB3
+C || D      : 557F8663C7AAB3
+K9          : E0DBEBEDE781
+Key binary  : 111000001101101111101011111011011110011110000001
+
+--- KEY ROUND 10 ---
+Shift       : 2
+C10         : 55FE199
+D10         : F1EAACC
+C || D      : 55FE199F1EAACC
+K10         : B1F347BA464F
+Key binary  : 101100011111001101000111101110100100011001001111
+
+--- KEY ROUND 11 ---
+Shift       : 2
+C11         : 57F8665
+D11         : C7AAB33
+C || D      : 57F8665C7AAB33
+K11         : 215FD3DED386
+Key binary  : 001000010101111111010011110111101101001110000110
+
+--- KEY ROUND 12 ---
+Shift       : 2
+C12         : 5FE1995
+D12         : 1EAACCF
+C || D      : 5FE19951EAACCF
+K12         : 7571F59467E9
+Key binary  : 011101010111000111110101100101000110011111101001
+
+--- KEY ROUND 13 ---
+Shift       : 2
+C13         : 7F86655
+D13         : 7AAB33C
+C || D      : 7F866557AAB33C
+K13         : 97C5D1FABA41
+Key binary  : 100101111100010111010001111110101011101001000001
+
+--- KEY ROUND 14 ---
+Shift       : 2
+C14         : FE19955
+D14         : EAACCF1
+C || D      : FE19955EAACCF1
+K14         : 5F43B7F2E73A
+Key binary  : 010111110100001110110111111100101110011100111010
+
+--- KEY ROUND 15 ---
+Shift       : 2
+C15         : F866557
+D15         : AAB33C7
+C || D      : F866557AAB33C7
+K15         : BF918D3D3F0A
+Key binary  : 101111111001000110001101001111010011111100001010
+
+--- KEY ROUND 16 ---
+Shift       : 1
+C16         : F0CCAAF
+D16         : 556678F
+C || D      : F0CCAAF556678F
+K16         : CB3D8B0E17F5
+Key binary  : 110010110011110110001011000011100001011111110101
+
+==================================================
+DES DECRYPTION
+==================================================
+Ciphertext  : 85E813540F0AB405
+Key         : 133457799BBCDFF1
+After IP    : 0A4CD99543423234
+L0          : 0A4CD995
+R0          : 43423234
+
+=============== ROUND 01 ===============
+Using key   : K16
+L input     : 0A4CD995
+R input     : 43423234
+Round key   : CB3D8B0E17F5
+Expansion E : 206A041A41A8
+XOR with K  : EB578F14565D
+
+S-box details:
+S1: Input=111010, Row=2, Col=13, Output=1010
+S2: Input=110101, Row=3, Col=10, Output=0111
+S3: Input=011110, Row=0, Col=15, Output=1000
+S4: Input=001111, Row=1, Col=7, Output=0011
+S5: Input=000101, Row=1, Col=2, Output=0010
+S6: Input=000101, Row=1, Col=2, Output=0100
+S7: Input=011001, Row=1, Col=12, Output=0010
+S8: Input=011101, Row=1, Col=14, Output=1001
+
+S-box output: A7832429
+Permutation : C8C04F98
+F output    : C8C04F98
+L1          : 43423234
+R1          : C28C960D
+
+=============== ROUND 02 ===============
+Using key   : K15
+L input     : 43423234
+R input     : C28C960D
+Round key   : BF918D3D3F0A
+Expansion E : E054594AC05B
+XOR with K  : 5FC5D477FF51
+
+S-box details:
+S1: Input=010111, Row=1, Col=11, Output=1011
+S2: Input=111100, Row=2, Col=14, Output=0010
+S3: Input=010111, Row=1, Col=11, Output=1110
+S4: Input=010100, Row=0, Col=10, Output=1000
+S5: Input=011101, Row=1, Col=14, Output=1000
+S6: Input=111111, Row=3, Col=15, Output=1101
+S7: Input=111101, Row=3, Col=14, Output=0011
+S8: Input=010001, Row=1, Col=8, Output=1100
+
+S-box output: B2E88D3C
+Permutation : 5B81276E
+F output    : 5B81276E
+L2          : C28C960D
+R2          : 18C3155A
+
+=============== ROUND 03 ===============
+Using key   : K14
+L input     : C28C960D
+R input     : 18C3155A
+Round key   : 5F43B7F2E73A
+Expansion E : 0F16068AAAF4
+XOR with K  : 5055B1784DCE
+
+S-box details:
+S1: Input=010100, Row=0, Col=10, Output=0110
+S2: Input=000101, Row=1, Col=2, Output=0100
+S3: Input=010110, Row=0, Col=11, Output=0111
+S4: Input=110001, Row=3, Col=8, Output=1001
+S5: Input=011110, Row=0, Col=15, Output=1001
+S6: Input=000100, Row=0, Col=2, Output=1010
+S7: Input=110111, Row=3, Col=11, Output=1111
+S8: Input=001110, Row=0, Col=7, Output=0001
+
+S-box output: 64799AF1
+Permutation : B7318E55
+F output    : B7318E55
+L3          : 18C3155A
+R3          : 75BD1858
+
+=============== ROUND 04 ===============
+Using key   : K13
+L input     : 18C3155A
+R input     : 75BD1858
+Round key   : 97C5D1FABA41
+Expansion E : 3ABDFA8F02F0
+XOR with K  : AD782B75B8B1
+
+S-box details:
+S1: Input=101011, Row=3, Col=5, Output=1001
+S2: Input=010111, Row=1, Col=11, Output=1010
+S3: Input=100000, Row=2, Col=0, Output=1101
+S4: Input=101011, Row=3, Col=5, Output=0001
+S5: Input=011101, Row=1, Col=14, Output=1000
+S6: Input=011011, Row=1, Col=13, Output=1011
+S7: Input=100010, Row=2, Col=1, Output=0100
+S8: Input=110001, Row=3, Col=8, Output=1111
+
+S-box output: 9AD18B4F
+Permutation : DDBB2922
+F output    : DDBB2922
+L4          : 75BD1858
+R4          : C5783C78
+
+=============== ROUND 05 ===============
+Using key   : K12
+L input     : 75BD1858
+R input     : C5783C78
+Round key   : 7571F59467E9
+Expansion E : 60ABF01F83F1
+XOR with K  : 15DA058BE418
+
+S-box details:
+S1: Input=000101, Row=1, Col=2, Output=0111
+S2: Input=011101, Row=1, Col=14, Output=1011
+S3: Input=101000, Row=2, Col=4, Output=1000
+S4: Input=000101, Row=1, Col=2, Output=1011
+S5: Input=100010, Row=2, Col=1, Output=0010
+S6: Input=111110, Row=2, Col=15, Output=0110
+S7: Input=010000, Row=0, Col=8, Output=0011
+S8: Input=011000, Row=0, Col=12, Output=0101
+
+S-box output: 7B8B2635
+Permutation : C268CFEA
+F output    : C268CFEA
+L5          : C5783C78
+R5          : B7D5D7B2
+
+=============== ROUND 06 ===============
+Using key   : K11
+L input     : C5783C78
+R input     : B7D5D7B2
+Round key   : 215FD3DED386
+Expansion E : 5AFEABEAFDA5
+XOR with K  : 7BA178342E23
+
+S-box details:
+S1: Input=011110, Row=0, Col=15, Output=0111
+S2: Input=111010, Row=2, Col=13, Output=0011
+S3: Input=000101, Row=1, Col=2, Output=0000
+S4: Input=111000, Row=2, Col=12, Output=0101
+S5: Input=001101, Row=1, Col=6, Output=1101
+S6: Input=000010, Row=0, Col=1, Output=0001
+S7: Input=111000, Row=2, Col=12, Output=0000
+S8: Input=100011, Row=3, Col=1, Output=0001
+
+S-box output: 7305D101
+Permutation : E104FA02
+F output    : E104FA02
+L6          : B7D5D7B2
+R6          : 247CC67A
+
+=============== ROUND 07 ===============
+Using key   : K10
+L input     : B7D5D7B2
+R input     : 247CC67A
+Round key   : B1F347BA464F
+Expansion E : 1083F960C3F4
+XOR with K  : A170BEDA85BB
+
+S-box details:
+S1: Input=101000, Row=2, Col=4, Output=1101
+S2: Input=010111, Row=1, Col=11, Output=1010
+S3: Input=000010, Row=0, Col=1, Output=0000
+S4: Input=111110, Row=2, Col=15, Output=0100
+S5: Input=110110, Row=2, Col=11, Output=0101
+S6: Input=101000, Row=2, Col=4, Output=0010
+S7: Input=010110, Row=0, Col=11, Output=0111
+S8: Input=111011, Row=3, Col=13, Output=0101
+
+S-box output: DA045275
+Permutation : 62BC9C22
+F output    : 62BC9C22
+L7          : 247CC67A
+R7          : D5694B90
+
+=============== ROUND 08 ===============
+Using key   : K9
+L input     : 247CC67A
+R input     : D5694B90
+Round key   : E0DBEBEDE781
+Expansion E : 6AAB52A57CA1
+XOR with K  : 8A70B9489B20
+
+S-box details:
+S1: Input=100010, Row=2, Col=1, Output=0001
+S2: Input=100111, Row=3, Col=3, Output=0001
+S3: Input=000010, Row=0, Col=1, Output=0000
+S4: Input=111001, Row=3, Col=12, Output=1100
+S5: Input=010010, Row=0, Col=9, Output=0101
+S6: Input=001001, Row=1, Col=4, Output=0111
+S7: Input=101100, Row=2, Col=6, Output=0111
+S8: Input=100000, Row=2, Col=0, Output=0111
+
+S-box output: 110C5777
+Permutation : 22367C6A
+F output    : 22367C6A
+L8          : D5694B90
+R8          : 064ABA10
+
+=============== ROUND 09 ===============
+Using key   : K8
+L input     : D5694B90
+R input     : 064ABA10
+Round key   : F78A3AC13BFB
+Expansion E : 00C2555F40A0
+XOR with K  : F7486F9E7B5B
+
+S-box details:
+S1: Input=111101, Row=3, Col=14, Output=0110
+S2: Input=110100, Row=2, Col=10, Output=1100
+S3: Input=100001, Row=3, Col=0, Output=0001
+S4: Input=101111, Row=3, Col=7, Output=1000
+S5: Input=100111, Row=3, Col=3, Output=0111
+S6: Input=100111, Row=3, Col=3, Output=1100
+S7: Input=101101, Row=3, Col=6, Output=1010
+S8: Input=011011, Row=1, Col=13, Output=1110
+
+S-box output: 6C187CAE
+Permutation : 3C0E86F9
+F output    : 3C0E86F9
+L9          : 064ABA10
+R9          : E967CD69
+
+=============== ROUND 10 ===============
+Using key   : K7
+L input     : 064ABA10
+R input     : E967CD69
+Round key   : EC84B7F618BC
+Expansion E : F52B0FE5AB53
+XOR with K  : 19AFB813B3EF
+
+S-box details:
+S1: Input=000110, Row=0, Col=3, Output=0001
+S2: Input=011010, Row=0, Col=13, Output=0000
+S3: Input=111110, Row=2, Col=15, Output=0111
+S4: Input=111000, Row=2, Col=12, Output=0101
+S5: Input=000100, Row=0, Col=2, Output=0100
+S6: Input=111011, Row=3, Col=13, Output=0000
+S7: Input=001111, Row=1, Col=7, Output=1010
+S8: Input=101111, Row=3, Col=7, Output=1101
+
+S-box output: 107540AD
+Permutation : 8C051C27
+F output    : 8C051C27
+L10         : E967CD69
+R10         : 8A4FA637
+
+=============== ROUND 11 ===============
+Using key   : K6
+L input     : E967CD69
+R input     : 8A4FA637
+Round key   : 63A53E507B2F
+Expansion E : C5425FD0C1AF
+XOR with K  : A6E76180BA80
+
+S-box details:
+S1: Input=101001, Row=3, Col=4, Output=0100
+S2: Input=101110, Row=2, Col=7, Output=0001
+S3: Input=011101, Row=1, Col=14, Output=1111
+S4: Input=100001, Row=3, Col=0, Output=0011
+S5: Input=100000, Row=2, Col=0, Output=0100
+S6: Input=001011, Row=1, Col=5, Output=1100
+S7: Input=101010, Row=2, Col=5, Output=0011
+S8: Input=000000, Row=0, Col=0, Output=1101
+
+S-box output: 41F34C3D
+Permutation : 9E45CD2C
+F output    : 9E45CD2C
+L11         : 8A4FA637
+R11         : 77220045
+
+=============== ROUND 12 ===============
+Using key   : K5
+L input     : 8A4FA637
+R input     : 77220045
+Round key   : 7CEC07EB53A8
+Expansion E : BAE90400020A
+XOR with K  : C60503EB51A2
+
+S-box details:
+S1: Input=110001, Row=3, Col=8, Output=0101
+S2: Input=100000, Row=2, Col=0, Output=0000
+S3: Input=010100, Row=0, Col=10, Output=1100
+S4: Input=000011, Row=1, Col=1, Output=1000
+S5: Input=111010, Row=2, Col=13, Output=0011
+S6: Input=110101, Row=3, Col=10, Output=0001
+S7: Input=000110, Row=0, Col=3, Output=1110
+S8: Input=100010, Row=2, Col=1, Output=1011
+
+S-box output: 50C831EB
+Permutation : 2813ADC3
+F output    : 2813ADC3
+L12         : 77220045
+R12         : A25C0BF4
+
+=============== ROUND 13 ===============
+Using key   : K4
+L input     : 77220045
+R input     : A25C0BF4
+Round key   : 72ADD6DB351D
+Expansion E : 5042F8057FA9
+XOR with K  : 22EF2EDE4AB4
+
+S-box details:
+S1: Input=001000, Row=0, Col=4, Output=0010
+S2: Input=101110, Row=2, Col=7, Output=0001
+S3: Input=111100, Row=2, Col=14, Output=1110
+S4: Input=101110, Row=2, Col=7, Output=1101
+S5: Input=110111, Row=3, Col=11, Output=1001
+S6: Input=100100, Row=2, Col=2, Output=1111
+S7: Input=101010, Row=2, Col=5, Output=0011
+S8: Input=110100, Row=2, Col=10, Output=1010
+
+S-box output: 21ED9F3A
+Permutation : BB23774C
+F output    : BB23774C
+L13         : A25C0BF4
+R13         : CC017709
+
+=============== ROUND 14 ===============
+Using key   : K3
+L input     : A25C0BF4
+R input     : CC017709
+Round key   : 55FC8A42CF99
+Expansion E : E58002BAE853
+XOR with K  : B07C88F827CA
+
+S-box details:
+S1: Input=101100, Row=2, Col=6, Output=0010
+S2: Input=000111, Row=1, Col=3, Output=0111
+S3: Input=110010, Row=2, Col=9, Output=0001
+S4: Input=001000, Row=0, Col=4, Output=0000
+S5: Input=111110, Row=2, Col=15, Output=1110
+S6: Input=000010, Row=0, Col=1, Output=0001
+S7: Input=011111, Row=1, Col=15, Output=0110
+S8: Input=001010, Row=0, Col=5, Output=1111
+
+S-box output: 2710E16F
+Permutation : 4D166EB0
+F output    : 4D166EB0
+L14         : CC017709
+R14         : EF4A6544
+
+=============== ROUND 15 ===============
+Using key   : K2
+L input     : CC017709
+R input     : EF4A6544
+Round key   : 79AED9DBC9E5
+Expansion E : 75EA5430AA09
+XOR with K  : 0C448DEB63EC
+
+S-box details:
+S1: Input=000011, Row=1, Col=1, Output=1111
+S2: Input=000100, Row=0, Col=2, Output=1000
+S3: Input=010010, Row=0, Col=9, Output=1101
+S4: Input=001101, Row=1, Col=6, Output=0000
+S5: Input=111010, Row=2, Col=13, Output=0011
+S6: Input=110110, Row=2, Col=11, Output=1010
+S7: Input=001111, Row=1, Col=7, Output=1010
+S8: Input=101100, Row=2, Col=6, Output=1110
+
+S-box output: F8D03AAE
+Permutation : 3CAB87A3
+F output    : 3CAB87A3
+L15         : EF4A6544
+R15         : F0AAF0AA
+
+=============== ROUND 16 ===============
+Using key   : K1
+L input     : EF4A6544
+R input     : F0AAF0AA
+Round key   : 1B02EFFC7072
+Expansion E : 7A15557A1555
+XOR with K  : 6117BA866527
+
+S-box details:
+S1: Input=011000, Row=0, Col=12, Output=0101
+S2: Input=010001, Row=1, Col=8, Output=1100
+S3: Input=011110, Row=0, Col=15, Output=1000
+S4: Input=111010, Row=2, Col=13, Output=0010
+S5: Input=100001, Row=3, Col=0, Output=1011
+S6: Input=100110, Row=2, Col=3, Output=0101
+S7: Input=010100, Row=0, Col=10, Output=1001
+S8: Input=100111, Row=3, Col=3, Output=0111
+
+S-box output: 5C82B597
+Permutation : 234AA9BB
+F output    : 234AA9BB
+L16         : F0AAF0AA
+R16         : CC00CCFF
+
+==================================================
+FINAL DECRYPTION RESULT
+==================================================
+L16         : F0AAF0AA
+R16         : CC00CCFF
+Before FP   : CC00CCFFF0AAF0AA
+Plaintext   : 0123456789ABCDEF

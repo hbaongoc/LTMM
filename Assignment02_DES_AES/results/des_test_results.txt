@@ -1,0 +1,31 @@
+﻿python : test_01_initial_permutation (test_des.TestDES.test_01_initial_permutation)
+At line:1 char:1
++ python -m unittest discover -s tests -p "test_des.py" -v 2>&1 | Out-F ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_01_initial...al_permutation):String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+TC01: Initial Permutation. ... ok
+test_02_final_permutation (test_des.TestDES.test_02_final_permutation)
+TC02: Final Permutation. ... ok
+test_03_left_shift (test_des.TestDES.test_03_left_shift)
+TC03: Circular left shift. ... ok
+test_04_xor (test_des.TestDES.test_04_xor)
+TC04: XOR operation. ... ok
+test_05_sbox (test_des.TestDES.test_05_sbox)
+TC05: S-box substitution. ... ok
+test_06_key_schedule (test_des.TestDES.test_06_key_schedule)
+TC06: Generate 16 round keys. ... ok
+test_07_feistel (test_des.TestDES.test_07_feistel)
+TC07: Feistel function. ... ok
+test_08_encryption (test_des.TestDES.test_08_encryption)
+TC08: DES encryption. ... ok
+test_09_decryption (test_des.TestDES.test_09_decryption)
+TC09: DES decryption. ... ok
+test_10_round_trip (test_des.TestDES.test_10_round_trip)
+TC10: Encryption and decryption. ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.004s
+
+OK
